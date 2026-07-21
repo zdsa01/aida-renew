@@ -6,7 +6,7 @@ import sys
 import time
 import requests
 from datetime import datetime
-from seleniumbase import SB
+
 
 EMAIL = os.environ.get("EMAIL") or ""
 PASSWORD = os.environ.get("PASSWORD") or ""
